@@ -118,7 +118,7 @@ const MEMORY_VIDEOS = [
   },
   {
     src: "videos/memory3.mp4",
-    title: "Just Us",
+    title: "you gave Laptop when There were many people",
     description: "No filter, no plan, no script. Just two friends and a camera. Exactly as it should be."
   }
 ];
