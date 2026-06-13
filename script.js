@@ -53,7 +53,7 @@ const MEMORIES = [
     image: "img/photo8.jpeg",
     title: "A silence made you emotional",
     date: "2026-06-09",
-    description:"Ypu told me that more than one people broke you from inside, but you are a stonrg women so be ccol and proud of your self",
+    description:"You told me that more than one people broke you from inside, but you are a stonrg women so be ccol and proud of your self",
   }
 ];
 
