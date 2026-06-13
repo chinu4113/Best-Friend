@@ -84,12 +84,11 @@ const BEST_MOMENTS = [
 
 /* ── 3. FRIENDSHIP STATS ──────────────────────────── */
 const STATS = [
-  { value: 6,   suffix: "+", label: "Years of Friendship" },
-  { value: 8,   suffix: "",  label: "Shared Memories" },
-  { value: 12,  suffix: "+", label: "Adventures Together" },
+  { value: 2,   suffix: "+", label: "Years of Friendship" },
+  { value: 999, suffix: "+", label: "Shared Memories" },
+  { value: 1,   suffix: "",  label: "Adventures Together" },
   { value: 999, suffix: "+", label: "Inside Jokes" }
 ];
-
 /* ── 4. QUOTES ────────────────────────────────────── */
 const QUOTES = [
   { text: "A best friend is a story you'll never stop telling.", author: "— Unknown" },
