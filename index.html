@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Only Bestfriend Pratishtha (Tatya) 😂 — A Digital Memory Book</title>
+
+  <!-- SEO -->
+  <meta name="description" content="A heartfelt tribute to my one and only bestfriend Pratishtha. Memories, moments, and the bond that lasts forever." />
+  <meta property="og:title" content="Only Bestfriend Pratishtha (Tatya)" />
+  <meta property="og:description" content="Some friendships become a part of our soul." />
+  <meta name="theme-color" content="#0a0b14" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&family=Inter:wght@400;500&family=DM+Mono:wght@400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ░░ SCROLL PROGRESS ░░ -->
+  <div id="scroll-progress" role="progressbar" aria-label="Scroll progress"></div>
+
+  <!-- ░░ CUSTOM CURSOR ░░ -->
+  <div id="cursor-dot"  aria-hidden="true"></div>
+  <div id="cursor-ring" aria-hidden="true"></div>
+
+  <!-- ░░ LOADING SCREEN ░░ -->
+  <div id="loader" role="status" aria-label="Loading">
+    <div class="loader-logo">Only Bestfriend <span>Pratishtha 😂</span></div>
+    <div class="loader-bar-track">
+      <div class="loader-bar-fill"></div>
+    </div>
+    <div class="loader-caption">Preparing your memories…</div>
+  </div>
+
+  <!-- ░░ NAV ░░ -->
+  <nav role="navigation" aria-label="Main navigation">
+    <div class="nav-logo">Pratishtha <span>(Tatya) 😂</span></div>
+    <ul class="nav-links">
+      <li><a href="#timeline">Timeline</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#moments">Moments</a></li>
+      <li><a href="#quotes">Quotes</a></li>
+      <li><a href="#memwall">Memory Wall</a></li>
+    </ul>
+  </nav>
+
+  <!-- ════════════════════════════════════
+       SECTION 1 — HERO
+       ════════════════════════════════════ -->
+  <section id="hero" aria-labelledby="hero-title">
+    <canvas id="hero-canvas" aria-hidden="true"></canvas>
+    <div class="hero-glow hero-glow-1" aria-hidden="true"></div>
+    <div class="hero-glow hero-glow-2" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <div class="hero-eyebrow">A tribute to my one and only bestfriend</div>
+
+      <h1 class="hero-title" id="hero-title">
+        <span class="word-gold">Only Bestfriend</span><br>
+        <span class="word-lavender">Pratishtha (Tatya) 😂</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        "Some friendships become a part of our soul."
+      </p>
+
+      <div class="hero-cta">
+        <a href="#timeline" class="btn-primary">Our Journey</a>
+        <a href="#gallery" class="btn-ghost">View Gallery</a>
+      </div>
+    </div>
+
+    <div class="scroll-hint" aria-hidden="true">
+      <div class="scroll-hint-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════
+       SECTION 2 — STATS
+       ════════════════════════════════════ -->
+  <section id="stats" aria-labelledby="stats-title">
+    <div class="section-head" style="text-align:center; margin-bottom: 3rem;">
+      <div class="section-label reveal">By the numbers</div>
+      <h2 class="section-title reveal" id="stats-title" data-delay="100">
+        A Friendship Worth Counting
+      </h2>
+    </div>
+    <div class="stats-grid" id="stats-grid">
+      <!-- Injected by script.js -->
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════
+       SECTION 3 — TIMELINE
+       ════════════════════════════════════ -->
+  <section id="timeline" aria-labelledby="timeline-title">
+    <div class="section-head">
+      <div class="section-label reveal">Chapter by chapter</div>
+      <h2 class="section-title reveal" id="timeline-title" data-delay="100">
+        Our Journey Together
+      </h2>
+      <p class="section-sub reveal" data-delay="180">
+        Every milestone, every memory — captured in the order they changed us.
+      </p>
+    </div>
+
+    <div class="timeline-wrapper">
+      <div class="timeline-spine" aria-hidden="true"></div>
+      <div class="timeline-entries" id="timeline-entries">
+        <!-- Injected by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════
+       SECTION 4 — GALLERY
+       ════════════════════════════════════ -->
+  <section id="gallery" aria-labelledby="gallery-title">
+    <div class="section-head">
+      <div class="section-label reveal">Every frame tells a story</div>
+      <h2 class="section-title reveal" id="gallery-title" data-delay="100">
+        Our Photo Gallery
+      </h2>
+      <p class="section-sub reveal" data-delay="180">
+        Click any photo to open it in full view. Each one is a world we lived in together.
+      </p>
+    </div>
+    <div class="gallery-masonry" id="gallery-grid" role="list">
+      <!-- Injected by script.js -->
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════
+       SECTION 5 — MEMORY VIDEOS
+       ════════════════════════════════════ -->
+  <section id="videos" aria-labelledby="videos-title">
+    <div class="section-head">
+      <div class="section-label reveal">Moments in motion</div>
+      <h2 class="section-title reveal" id="videos-title" data-delay="100">
+        Memory Reels
+      </h2>
+      <p class="section-sub reveal" data-delay="180">
+        Some memories are too alive for photographs. Press play and live them again.
+      </p>
+    </div>
+    <div class="videos-grid" id="videos-grid" role="list">
+      <!-- Injected by script.js -->
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════
+       SECTION 6 — BEST MOMENTS
+       ════════════════════════════════════ -->
+  <section id="moments" aria-labelledby="moments-title">
+    <div class="section-head">
+      <div class="section-label reveal">The ones we'll never forget</div>
+      <h2 class="section-title reveal" id="moments-title" data-delay="100">
+        Best Moments
+      </h2>
+      <p class="section-sub reveal" data-delay="180">
+        If we could relive just a handful of days — these would be the ones.
+      </p>
+    </div>
+    <div class="moments-grid" id="moments-grid">
+      <!-- Injected by script.js -->
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════
+       SECTION 7 — QUOTE CAROUSEL
+       ════════════════════════════════════ -->
+  <section id="quotes" aria-labelledby="quotes-title">
+    <div class="section-label reveal" style="text-align:center; margin-bottom:2rem;">Words that say it all</div>
+    <div class="quote-stage">
+      <p class="quote-text" id="quote-text" aria-live="polite"></p>
+      <div class="quote-author" id="quote-author"></div>
+      <div class="quote-dots" id="quote-dots" role="tablist" aria-label="Quote navigation"></div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════
+       SECTION 8 — MEMORY WALL
+       ════════════════════════════════════ -->
+  <section id="memwall" aria-labelledby="memwall-title">
+    <div class="section-head">
+      <div class="section-label reveal">Written from the heart</div>
+      <h2 class="section-title reveal" id="memwall-title" data-delay="100">
+        Memory Wall
+      </h2>
+      <p class="section-sub reveal" data-delay="180">
+        Pin your favorite micro-memories here. They're saved in your browser so they'll always be waiting for you.
+      </p>
+    </div>
+
+    <div class="memwall-notes" id="memwall-notes" role="list">
+      <!-- Injected by script.js -->
+    </div>
+
+    <div class="note-add-form reveal" data-delay="200" role="form" aria-label="Add a memory">
+      <input
+        type="text"
+        id="note-input"
+        class="note-input"
+        placeholder="Write a memory you never want to forget…"
+        maxlength="200"
+        aria-label="Memory text"
+      />
+      <button id="note-add-btn" class="note-add-btn" aria-label="Add memory">
+        + Add Memory
+      </button>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════
+       FOOTER
+       ════════════════════════════════════ -->
+  <footer>
+    <span class="footer-heart" aria-hidden="true">♡</span>
+    <p class="footer-text">
+      "No matter where life takes us,<br>
+      these memories stay forever."
+    </p>
+    <div class="footer-brand">Forever Friends · Made with love</div>
+  </footer>
+
+  <!-- ░░ LIGHTBOX ░░ -->
+  <div id="lightbox" role="dialog" aria-modal="true" aria-label="Photo lightbox">
+    <button id="lightbox-close" aria-label="Close lightbox">✕</button>
+    <img id="lightbox-img" src="" alt="Full size photo" />
+    <div id="lightbox-caption"></div>
+  </div>
+
+  <!-- ░░ VIDEO LIGHTBOX ░░ -->
+  <div id="video-lightbox" role="dialog" aria-modal="true" aria-label="Video player">
+    <button id="video-lightbox-close" aria-label="Close video">✕</button>
+    <div class="video-lightbox-inner">
+      <video id="video-lightbox-player" controls playsinline>
+        Your browser does not support the video tag.
+      </video>
+      <div id="video-lightbox-caption"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
